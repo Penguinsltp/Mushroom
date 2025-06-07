@@ -25,6 +25,7 @@ src/
 
 #### **​1. 环境准备​**
 ```
+sudo apt install python3 python3-pip python3-venv -y python-is-python3
 git clone https://github.com/Penguinsltp/Mushroom.git
 
 ```
