@@ -1,0 +1,7 @@
+# pip install -r requirements.txt
+
+# Base ----------------------------------------
+onnxruntime>=1.15.0
+opencv-python>=4.7.0
+numpy>=1.23.0 
+thop  # FLOPs computation
