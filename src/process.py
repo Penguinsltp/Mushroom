@@ -133,7 +133,7 @@ def init_detector(model_path: str, confidence: float = 0.25) -> MushroomDetector
 def process_img(img_path: str) -> List[Dict]:
     """处理单张蘑菇图片(兼容原接口)"""
     # 使用默认模型路径
-    model_path = 'best.onnx'
+    model_path = 'model/best.onnx'
     if not os.path.exists(model_path):
         raise FileNotFoundError(f"模型文件 {model_path} 不存在")
     
