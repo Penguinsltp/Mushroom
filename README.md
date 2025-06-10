@@ -39,8 +39,14 @@ cd Mushroom/src
 #### ​**​2. 激活虚拟环境​**​
 
 ```
-python -m venv yolov5_env 
-source yolov5_env/bin/activate  
+python -m venv yolov5_env
+#创建虚拟环境
+ 
+source yolov5_env/bin/activate
+#Ubuntu/Linux
+
+# Windows
+yolov5_env\Scripts\activate.bat
 ```
 ✅ ​**​验证激活成功​**​：命令行前缀应显示 `(yolov5_env)`
 ### 方法1：通过 `pip` 逐个安装（推荐）
